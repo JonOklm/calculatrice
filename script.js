@@ -3,7 +3,7 @@ const BUTTONS = document.querySelector("#button");
 
 
 
-BUTTONS.addEventListener = function(){
+BUTTONS.onclick = function(){
 
 let valeur1 = document.getElementById("valeur1").value;
 
